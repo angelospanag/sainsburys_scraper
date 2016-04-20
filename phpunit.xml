@@ -1,0 +1,7 @@
+<phpunit colors="true">
+  <testsuites>
+    <testsuite name="sainsburys_scraper">
+      <directory>./tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
