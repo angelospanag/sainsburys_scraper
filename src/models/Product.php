@@ -37,7 +37,7 @@ class Product implements \JsonSerializable
      *
      * @var float
      */
-    private $unitPrice = '';
+    private $unitPrice = 0;
 
     /**
      * The description of the product.
@@ -49,9 +49,9 @@ class Product implements \JsonSerializable
     /**
      * Product constructor
      *
-     * @param string $name The title of the product
-     * @param float $size The price of the product
-     * @param string $unitPrice The price per unit of the product
+     * @param string $title The title of the product
+     * @param string $size The size (in kb) of the linked HTML product page
+     * @param float $unitPrice The price per unit of the product
      * @param string $description The description of the product
      */
     public function __construct($title, $size, $unitPrice, $description)

@@ -68,6 +68,6 @@ class ResultSet
    */
   public function getTotal()
   {
-      return $this->total;
+      return floatval($this->total);
   }
 }
